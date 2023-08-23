@@ -1,0 +1,14 @@
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/distances.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/rays.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/intersections.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/core.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/rebuild_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/edit_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/glad.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glfw/CMakeFiles/rebuild_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glfw/CMakeFiles/edit_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/edit_cache.dir
+/Users/charliechuyue/University/20229/csc317/bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir
