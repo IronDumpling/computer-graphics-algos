@@ -1,0 +1,4 @@
+/Users/charliechuyue/University/20229/csc317/ray-tracing/build/CMakeFiles/raytracing.dir
+/Users/charliechuyue/University/20229/csc317/ray-tracing/build/CMakeFiles/hw2.dir
+/Users/charliechuyue/University/20229/csc317/ray-tracing/build/CMakeFiles/edit_cache.dir
+/Users/charliechuyue/University/20229/csc317/ray-tracing/build/CMakeFiles/rebuild_cache.dir
