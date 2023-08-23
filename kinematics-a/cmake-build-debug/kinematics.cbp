@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="kinematics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\glfw-src\;CMake Files\cmake-build-debug\_deps\glfw-src\CMake\;CMake Files\cmake-build-debug\_deps\glfw-src\src\;CMake Files\cmake-build-debug\_deps\glad-src\;CMake Files\cmake-build-debug\_deps\libigl-src\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\modules\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\recipes\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\recipes\external\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinematics">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/kinematics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/json"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/shared/json"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/eigen-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematics"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinematics/fast">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/kinematics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/json"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/shared/json"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/eigen-src"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinematics/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/lib/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/lib/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src"/>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/lib/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/lib/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-build/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/main.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/catmull_rom_interpolation.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/copy_skeleton_at.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/end_effectors_objective_and_gradient.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/euler_angles_to_transform.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/forward_kinematics.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/kinematics_jacobian.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/line_search.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/linear_blend_skinning.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/projected_gradient_descent.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/src/transformed_tips.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glfw-src/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glfw-src\src\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/glad-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\glad-src\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_add_library.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_add_test.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_add_tutorial.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_copy_dll.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_include.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_install.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_target_sources.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/igl_windows.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/modules/core.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\modules\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/modules/glfw.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\modules\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/igl/modules/opengl.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\igl\modules\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/recipes/external/eigen.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\recipes\external\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/recipes/external/glad.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\recipes\external\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake-build-debug/_deps/libigl-src/cmake/recipes/external/glfw.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\recipes\external\"/>
+		</Unit>
+		<Unit filename="/Users/charliechuyue/University/20229/csc317/kinematics/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
